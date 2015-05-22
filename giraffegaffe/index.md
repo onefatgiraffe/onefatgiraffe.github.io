@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GiraffeGaffe
-bannerurl: img/giraffegaffe.png
+bannerurl: /img/giraffegaffe.png
 ---
 
 # Challengingly addictive side-scrolling action!

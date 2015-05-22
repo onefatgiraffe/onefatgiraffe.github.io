@@ -1,0 +1,36 @@
+{% include header.html %}
+  {% include navigation.html %}
+
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <img src="img/mastlogo.png" width="50%" class="logo" alt="One Fat Giraffe" />
+        <p class="lead">We’re digital media company focused on interactive media and mobile solutions.</p>
+        {% if site.twitter %}
+        <a href="https://twitter.com/{{site.twitter}}" class="btn btn-default" role="button"><i class="fa fa-twitter"></i> @{{site.twitter}}</a>
+        {% endif %}
+        {% if site.twitter %}
+        <a href="https://instagram.com/{{site.instagram}}" class="btn btn-default" role="button"><i class="fa fa-instagram"></i> @{{site.instagram}}</a>
+        {% endif %}
+      </div>
+    </div><!-- /.row -->
+  </div>
+</div><!-- /.pane-jumbotron -->
+
+{% include featurettes.html %}
+
+  <div class="pane">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+        {{ content }}
+        </div>
+        <div class="col-md-4">
+        {% include sidebar.html %}
+        </div>
+      </div><!-- /.row -->
+    </div>
+  </div><!-- /.pane -->
+
+  {% include footer.html %}

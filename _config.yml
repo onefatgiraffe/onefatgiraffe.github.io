@@ -1,0 +1,56 @@
+###########
+# site.url, site.title
+
+url:   'http://www.onefatgiraffe.com'
+title: One Fat Giraffe
+
+# Meta data
+# ---------
+author:  One Fat Giraffe
+keywords:     apps, Vancouver, Canada, web, mobile, media, ios, javascript
+language:     en
+description: A digital media company focused on interactive media and mobile solutions. 
+
+
+# Links
+# -----
+twitter:      onefatgiraffe
+instagram:    onefatgiraffe
+
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'Rakefile',
+  'README.md',
+  'node_modules',
+  'vendor',
+  'bower.json',
+  'package.json',
+  'gruntfile.js',
+  'CONTRIBUTING.md'
+  ]
+
+
+safe: true
+lsi: false
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#        
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-47364644-1'

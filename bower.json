@@ -1,0 +1,25 @@
+{
+  "name": "onefatgiraffe-site",
+  "version": "1.0",
+  "description": "OneFatGiraffe.com website.",
+  "main": "index.html",
+  "authors": [
+    "apparition47"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.onefatgiraffe.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "~4.3.0",
+    "bootstrap": "~3.3.4",
+    "modernizr": "~2.8.3",
+    "flat-ui": "~2.2.2"
+  }
+}

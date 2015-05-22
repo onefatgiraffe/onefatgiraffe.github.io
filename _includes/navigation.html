@@ -1,0 +1,27 @@
+<nav class="navbar navbar-clear navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand" href="/">{{site.title}}</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">About</a></li>
+        <li><a href="http://translationary.onefatgiraffe.com">Translationary</a></li>
+        <li><a href="giraffegaffe.html">GiraffeGaffe</a></li>
+        <li><a href="privacy">Privacy</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right navbar-social">
+      {% if site.twitter %}
+        <li><a href="https://twitter.com/{{site.twitter}}" title="One Fat Giraffe on Twitter"><i class="fa fa-twitter"></i> </a></li>
+      {% endif %}
+      {% if site.instagram %}
+        <li><a href="https://instagram.com/{{site.instagram}}" title="One Fat Giraffe on Instagram"><i class="fa fa-instagram"></i> </a></li>
+      {% endif %}
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav><!-- /.navbar -->

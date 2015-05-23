@@ -4,14 +4,28 @@
   <div class="container">
     <div class="row">
       <footer>
-        <p>
-          <em>&copy; 2015 One Fat Giraffe Inc.</em>
-        </p>
+        <p><em>&copy; 2015 One Fat Giraffe Inc. All rights reserved.</em></p>
+        <ul class="list-inline">
+        <a href="http://www.onefatgiraffe.com"><img src="/img/ofg.png" alt="One Fat Giraffe Inc."></a>
+        {% if site.twitter %}
+          <li>
+            <i class="fa fa-twitter"></i> 
+            <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>
+          </li>
+        {% endif %}
+        {% if site.instagram %}
+          <li>
+            <i class="fa fa-github"></i> 
+            <a href="https://github.com/{{ site.instagram }}">Instagram</a>
+          </li>
+        {% endif %}
+        </ul>
       </footer>
     </div>
   </div>
 </div>
 
+<script src="/components/modernizr/modernizr.js"></script>
 <script src="/components/jquery/dist/jquery.min.js"></script>
 <script src="/components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/js/main.js"></script>
@@ -24,6 +38,6 @@
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
 </script>
-</body>
 
+</body>
 </html>

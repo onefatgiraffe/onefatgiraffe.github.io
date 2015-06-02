@@ -26,4 +26,4 @@ Hold on to your ropes…. strap up and help our lonely giraffe escape far far aw
 - Android 4.0
 - iOS 5.0
 
-[![](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/ca/app/giraffegaffe/id703296797?mt=8)  [![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Get_it_on_Google_play.svg/170px-Get_it_on_Google_play.svg.png)](https://play.google.com/store/apps/details?id=com.onefatgiraffe.com.giraffegaffe)
+[![Download on the App Store](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/ca/app/giraffegaffe/id703296797?mt=8)  <a href="https://play.google.com/store/apps/details?id=com.onefatgiraffe.com.giraffegaffe"><img height="40" alt="Get it on Google Play" src="https://steverichey.github.io/google-play-badge-svg/img/en_get.svg" /></a>

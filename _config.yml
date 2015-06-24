@@ -41,14 +41,13 @@ exclude: [
   'bower.json',
   'package.json',
   'gruntfile.js',
-  'CONTRIBUTING.md'
+  'CONTRIBUTING.md',
+  'components'
   ]
 
-
-safe: true
-lsi: false
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Settings for analytics helper
 # Set 'provider' to the analytics provider you want to use.

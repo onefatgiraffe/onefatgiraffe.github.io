@@ -2,10 +2,6 @@
 layout: default
 title: GiraffeGaffe
 bannerurl: /img/giraffegaffe.png
-sitemap:
-  priority: 0.7
-  changefreq: monthly
-  lastmod: 2015-05-23T18:56:19+02:00
 ---
 
 # Challengingly addictive side-scrolling action!

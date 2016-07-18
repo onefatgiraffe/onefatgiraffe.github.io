@@ -71,6 +71,9 @@ footer {
 .navbar-nav>li>a {
   color: #222 !important;
 }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #ddd !important;
+}
 .navbar-inverse .navbar-toggle {
   border: none;
 }

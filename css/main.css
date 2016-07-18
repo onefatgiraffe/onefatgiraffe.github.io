@@ -65,8 +65,11 @@ footer {
 .navbar-clear {
   background: rgba(255, 255, 255, .4);
 }
-.navbar-brand {
+.navbar-inverse {
   color: #333;
+}
+.navbar-inverse .navbar-toggle {
+  border: none;
 }
 .navbar-toggle {
   margin-top: 10px;

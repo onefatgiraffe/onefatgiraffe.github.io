@@ -1,0 +1,21 @@
+{% include header.html %}
+  {% include navigation.html %}
+
+  <div class="pane">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+        {{ content }}
+        </div>
+        <div class="col-md-5">
+            <div id="phone" style="background-image: url('{{page.preview.screen}}')">
+                <video id="demovideo" autoplay loop muted>
+                <source src="{{ page.preview.video }}" type="video/mp4">
+                </video>
+            </div>
+        </div>
+      </div><!-- /.row -->
+    </div>
+  </div><!-- /.pane -->
+
+  {% include footer.html %}

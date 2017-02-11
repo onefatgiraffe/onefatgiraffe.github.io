@@ -5,7 +5,9 @@ preview:
     screen: /synnonym/screen.png
     video: /synnonym/landing.mp4
 ---
-#**Synnonym**
+
+# Synnonym
+
 Multilingual thesaurus app! Interactive Word Cloud interface for convenient and efficient display of synonyms. Sift through various synonyms and associated words by clicking on the cloud. One of the best apps visually for language and vocabulary learning! Single app for languages in English, Chinese (Traditional and Simplified), French (including Canadian French - Quebec), Norwegian, Swedish, Italian, Thai, Spanish, Russian, Portuguese, Greek! Global Thesaurus!
 
 Features:

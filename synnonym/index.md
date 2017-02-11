@@ -5,23 +5,33 @@ preview:
     screen: /synnonym/screen.png
     video: /synnonym/landing.mp4
 ---
+#**Synnonym**
+Multilingual thesaurus app! Interactive Word Cloud interface for convenient and efficient display of synonyms. Sift through various synonyms and associated words by clicking on the cloud. One of the best apps visually for language and vocabulary learning! Single app for languages in English, Chinese (Traditional and Simplified), French (including Canadian French - Quebec), Norwegian, Swedish, Italian, Thai, Spanish, Russian, Portuguese, Greek! Global Thesaurus!
 
-# Challengingly addictive side-scrolling action!
-Hold on to your ropes…. strap up and help our lonely giraffe escape far far away from the horrendous zoo!!! Help our hero travel through world while maneuvering in a hot air balloon. Is there an end in sight for our getaway? Avoid hazards and collect POWERUPS and leaves for additional scores and bonus features.
+Features:
 
-### Features
-- Fun easy to pick up with intuitive one-touch control 
-- Choose from four unique power-ups 
-- Shoot Hazards with Stars in a plane! 
-- Slow time! 
-- Interact with objects all at your fingertips! 
-- Travel an infinitely spanning world with three amazing backdrops 
-- See your friends through the Game Services leaderboard 
-- Game Services support 
-- 4 + age appropriate. Bring back the old school games all enjoy 
+- All-in-one comprehensive Thesaurus in over 12 languages!! 
+- Visual Word-cloud for quick access to correlated and connecting words
+- Export and sharing of the Word Cloud
+- Pan and rotate the Word Cloud to see affiliated words 
+- Vocabulary and language learning with multi-lingual availability 
+- Word Search History for displaying associated searched words - save, send to friends and use for social media (Tweet it!)
+- Unique algorithm for determine key synonyms in various languages
+- Toggle between languages with more to come!
+- Unlimited searches and with no ads
 
-### Requirements
-- Android 4.0
-- iOS 5.0
+Brought to you by the creators of:
+Translationary - Top International Translation and Pro Dictionary: Foreign Verbs + Nouns
+Top 5 in Thailand and Malaysia
+Top 10 in Turkey and Kyrgyzstan
+Top 100 in Russia, India, Indonesia, Sweden, Mexico, France, China, Netherlands, Macau 
+Giraffe Gaffe
+Featured app in 2013
 
-[![Download on the App Store](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://geo.itunes.apple.com/us/app/giraffegaffe/id703296797?mt=8&uo=6)
+====================================
+
+**Follow us on Twitter @onefatgiraffe**
+
+**Visit us on the web at www.onefatgiraffe.com**
+
+[![Download on the App Store](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/us/app/synnamon-word-cloud-thesaurus/id1156731332?ls=1&mt=8)

@@ -45,7 +45,7 @@ exclude: [
   'components'
   ]
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 

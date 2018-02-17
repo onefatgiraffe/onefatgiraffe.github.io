@@ -31,6 +31,6 @@ FEATURES:
 **Follow us on Twitter @onefatgiraffe**
 **Visit us on the web at www.onefatgiraffe.com**
 
-#*shiftworkmadeeasy*#
+#*shiftworkmadeeasy*
 
-[![Download on the App Store](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/us/app/shift-alarm-shift-schedule/id1053315627?ls=1&mt=8)
+[![Download on the App Store](https://devimages-cdn.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/us/app/shift-alarm-shift-schedule/id1053315627?ls=1&mt=8)

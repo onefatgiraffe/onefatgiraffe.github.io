@@ -20,6 +20,6 @@ Hold on to your ropes…. strap up and help our lonely giraffe escape far far aw
 
 ### Requirements
 - Android 4.0
-- iOS 5.0
+- iOS 6.0
 
-[![Download on the App Store](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://geo.itunes.apple.com/us/app/giraffegaffe/id703296797?mt=8&uo=6)  <a href="https://play.google.com/store/apps/details?id=com.onefatgiraffe.com.giraffegaffe"><img height="40" alt="Get it on Google Play" src="https://steverichey.github.io/google-play-badge-svg/img/en_get.svg" /></a>
+[![Download on the App Store](https://devimages-cdn.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://geo.itunes.apple.com/us/app/giraffegaffe/id703296797?mt=8&uo=6)  <a href="https://play.google.com/store/apps/details?id=com.onefatgiraffe.com.giraffegaffe"><img height="40" alt="Get it on Google Play" src="https://steverichey.github.io/google-play-badge-svg/img/en_get.svg" /></a>

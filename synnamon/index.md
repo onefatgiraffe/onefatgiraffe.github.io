@@ -36,4 +36,4 @@ Featured app in 2013
 
 **Visit us on the web at www.onefatgiraffe.com**
 
-[![Download on the App Store](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/us/app/synnamon-word-cloud-thesaurus/id1156731332?ls=1&mt=8)
+[![Download on the App Store](https://devimages-cdn.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/us/app/synnamon-word-cloud-thesaurus/id1156731332?ls=1&mt=8)

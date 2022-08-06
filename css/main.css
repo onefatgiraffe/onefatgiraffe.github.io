@@ -89,14 +89,13 @@ footer {
   color: #222 !important;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-  background-color: #ddd !important;
+  background-color: transparent !important;
 }
 .navbar-inverse .navbar-toggle {
   border: none;
 }
-.navbar-toggle {
-  margin-top: 10px;
-  padding: 0;
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #333 !important;
 }
 .navbar-social li {
   border-left: 1px solid #bebebe;

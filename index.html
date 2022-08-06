@@ -13,7 +13,7 @@ title: Home
     {% for project in site.data.projects %}
     <div class="col-sm-12 col-lg-6">
         <div class="thumbnail">
-            <h4>{{ project.name }}</h4>
+            <h3>{{ project.name }}</h4>
             <p class="brief">{{ project.brief }}</p>
             {% if project.url %}
             <a href="{{ project.url }}" class="btn btn-default col-xs-12" role="button"><i class="fa fa-link"></i> See more</a>

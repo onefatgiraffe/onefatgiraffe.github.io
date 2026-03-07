@@ -463,7 +463,21 @@ h3 { font-size: 1.25rem; }
   min-height: 60vh;
 }
 
+.product-layout h1 {
+  margin-bottom: 1rem;
+}
+
+.product-layout p,
+.product-layout ul {
+  margin-bottom: 1.5rem;
+}
+
+.product-layout li {
+  margin-bottom: 0.35rem;
+}
+
 #phone {
+  position: relative;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 360px;
@@ -473,7 +487,10 @@ h3 { font-size: 1.25rem; }
 }
 
 #demovideo {
-  margin-top: 90px;
+  position: relative;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 322px;
   height: 556px;
 }

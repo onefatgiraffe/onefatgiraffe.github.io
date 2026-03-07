@@ -1,57 +1,20 @@
-<hr />
-
-<div class="pane">
+<footer class="site-footer">
   <div class="container">
-    <div class="row">
-      <footer>
-        <p><em>&copy; 2024 One Fat Giraffe Inc. All rights reserved.</em></p>
-        <ul class="list-inline">
-        <a href="https://onefatgiraffe.com"><img src="/img/ofg.svg" alt="One Fat Giraffe Inc."></a>
-          <li>
-            <i class="fa fa-key"></i> 
-            <a href="https://onefatgiraffe.com/privacy">Privacy policy</a>
-          </li>
-          <li>
-            <i class="fa fa-envelope-o"></i>
-            <a href="https://mailhide.io/e/p0QMHPRm">Email</a>
-          </li>
-        {% if site.twitter %}
-          <li>
-            <i class="fa fa-twitter"></i> 
-            <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>
-          </li>
-        {% endif %}
-        {% if site.instagram %}
-          <li>
-            <i class="fa fa-instagram"></i> 
-            <a href="https://instagram.com/{{ site.instagram }}">Instagram</a>
-          </li>
-        {% endif %}
-        </ul>
-      </footer>
-    </div>
+    <img src="/img/ofg.svg" alt="" class="site-footer__logo" width="40" height="40">
+    <ul class="site-footer__links">
+      <li><a href="#" data-name="support" data-domain="onefatgiraffe.com" onclick="window.location.href='mailto:'+this.dataset.name+'@'+this.dataset.domain;return false;">Email</a></li>
+      <li><a href="/privacy">Privacy</a></li>
+    </ul>
+    <p class="site-footer__copy">&copy; 2026 One Fat Giraffe Inc.</p>
   </div>
-</div>
+</footer>
 
-<!-- <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap-theme.min.css"> -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script src="/components/flat-ui/dist/js/flat-ui.min.js"></script>
-<script src="/js/main.js"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', '{{site.analytics.google.tracking_id}}', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
+  document.querySelector('.nav-toggle').addEventListener('click', function() {
+    const nav = document.querySelector('.site-nav__links');
+    const isOpen = nav.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', isOpen);
+  });
 </script>
 
 </body>

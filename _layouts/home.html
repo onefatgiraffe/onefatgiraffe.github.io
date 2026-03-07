@@ -1,33 +1,52 @@
 {% include header.html %}
-  {% include navigation.html %}
+{% include navigation.html %}
 
-<div class="jumbotron">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 text-center">
-        <img src="img/ofg.svg" class="logo" alt="One Fat Giraffe" />
-        <p class="lead">Mobile and web app developer based in Vancouver, Canada</p>
-
-        <a href="https://mailhide.io/e/p0QMHPRm" class="btn btn-default btn-lg" role="button"><i class="fa fa-envelope-o"></i> Contact our team</a>
-
-      </div>
-    </div><!-- /.row -->
-  </div>
-</div><!-- /.pane-jumbotron -->
-
-{% include featurettes.html %}
-
-  <div class="pane">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-        {{ content }}
-        </div>
-        <div class="col-md-4">
-        {% include sidebar.html %}
-        </div>
-      </div><!-- /.row -->
+<section class="hero">
+  <div class="hero__content">
+    <img src="/img/ofg.svg" alt="One Fat Giraffe" class="hero__logo" width="88" height="88">
+    <h1 class="hero__title">Software studio<br>in <span>Vancouver, Canada</span></h1>
+    <p class="hero__subtitle">We design and build mobile apps, websites, and custom software for businesses that want to move fast.</p>
+    <div class="hero__cta">
+      <a href="#" class="btn-primary" data-name="support" data-domain="onefatgiraffe.com" onclick="window.location.href='mailto:'+this.dataset.name+'@'+this.dataset.domain;return false;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in touch
+      </a>
     </div>
-  </div><!-- /.pane -->
+  </div>
+</section>
 
-  {% include footer.html %}
+<section class="services">
+  <div class="container">
+    <div class="services__header">
+      <span class="services__label">What we do</span>
+      <h2>Built for the way you work</h2>
+    </div>
+    <div class="services__grid">
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+        </div>
+        <h3>Mobile Apps</h3>
+        <p>Native iOS and Android apps built for performance, polish, and real users. From concept through App Store launch.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h3>Web Development</h3>
+        <p>Modern websites and web apps for small businesses and startups. Fast, responsive, and easy to manage.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+        </div>
+        <h3>Consulting</h3>
+        <p>Technical strategy and architecture guidance for teams building software products. We help you ship the right thing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ content }}
+
+{% include footer.html %}
